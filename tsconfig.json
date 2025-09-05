@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",           // Usa recursos modernos do JavaScript
+    "module": "ESNext",           // Sistema de módulos mais recente
+    "moduleResolution": "node",   // Como o TS resolve os módulos (compatível com Node.js)
+    "outDir": "./dist",           // Onde os arquivos compilados serão salvos
+    "rootDir": "./src",           // Diretório raiz do código fonte
+    "strict": true,               // Habilita todas as verificações rigorosas de tipo
+    "esModuleInterop": true,      // Permite interoperabilidade entre CommonJS e ES Modules
+    "skipLibCheck": true,         // Ignora verificação de tipos nas bibliotecas (mais rápido)
+    "forceConsistentCasingInFileNames": true, // Força consistência no casing dos arquivos
+    "verbatimModuleSyntax": false // Desativa sintaxe estrita de módulos (mais simples para aprender)
+  },
+  "include": ["src/**/*"],        // Inclui todos os arquivos na pasta src
+  "exclude": ["node_modules", "dist"] // Exclui essas pastas da compilação
+}
